@@ -16,8 +16,9 @@ var port = normalizePort(process.env.PORT || '8080');
 app.set('port', port);
 
 /**
- * Create HTTP server.
+ * Create HTTP server. This start the server an put it to listen un port 8080 or another available
  */
+
 
 var server = http.createServer(app);
 
